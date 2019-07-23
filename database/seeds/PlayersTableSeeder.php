@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Carbon\Carbon; // 追加
+use Illuminate\Support\Facades\DB; // 追加
 
 class PlayersTableSeeder extends Seeder
 {
@@ -23,7 +25,7 @@ class PlayersTableSeeder extends Seeder
                 'phone_num'  => '09012345678',
                 'history'  => '10',
                 'teacher'  => '高浦猛',
-                'team'  => '',
+                'team'  => '乾坤拳社',
             ],
         ];
 

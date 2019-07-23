@@ -21,9 +21,9 @@ class CreatePlayersTable extends Migration
             $table->date('birthdate');     // 生年月日
             $table->string('email');     // メールアドレス ok
             // integerは文字数指定できない　stringは文字数指定できる！
-            $table->integer('code');     // 郵便番号
+            $table->string('code', 8);     // 郵便番号
             $table->string('address');     // 住所
-            $table->integer('phone_num');     // 電話番号
+            $table->string('phone_num', 11);     // 電話番号
             // NULLを許容
             $table->integer('history')->nullable();     // 武術歴
             $table->string('teacher')->nullable();     // 老師
