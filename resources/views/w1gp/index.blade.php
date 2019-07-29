@@ -16,7 +16,6 @@ Home Page!!
             </div>
             <div class="carousel-item">
             </div>
-  
           </div>
         </div>
     </div>
@@ -24,8 +23,7 @@ Home Page!!
 
     {{-- サイト説明 --}}
     <div class="container">
-        <h2>Save the Mya-kufutsu</h2>
-        <h3>みゃーくふつを救え</h3>　
+
 
     </div>
 
