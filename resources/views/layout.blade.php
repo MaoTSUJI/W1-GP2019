@@ -15,10 +15,44 @@
 
 
     </head>
-    <body>
+    <body data-gr-c-s-loaded="true" cz-shortcut-listen="true">
        
-        @yield('content')
+        <main style="padding-bottom: 109px;">
+            {{--  --}}
+            {{-- スライダー --}}
+            {{--  --}}
+            <div class="slider" style="overflow: hidden; text-align: center; position: relative;">
+                
+            </div>
 
+            {{-- ヘッダー --}}
+            <header class="scrolled fixed">
+                <nav>
+                    <ul class="w1200">
+                        <li>
+                            <a href="#">A</a>
+                        </li>
+                        <li>
+                            
+                        </li>
+                    </ul>
+                    <div class="mobileicon"></div>
+                </nav>
+            </header>
+
+            {{-- アーティスト --}}
+            <section class="artist">
+                
+            </section>
+
+            {{-- チケット --}}
+            <section>
+                
+            </section>
+
+        </main>
+
+        {{-- フッター --}}
         <footer style="position: absolute; left: 0px; bottom: 0px">
              <div class="container">
                 <div class="col-md-12 text-center">
