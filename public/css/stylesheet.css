@@ -4,7 +4,7 @@
 
 body {
   margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN";
+  font-family: Meiryo, メイリオ, "Hiragino Kaku Gothic ProN", "ヒラギノ角ゴ ProN W3", sans-serif;
 }
 
 a {
@@ -12,15 +12,27 @@ a {
 }
 
 .container {
+  position: relative;
   max-width: 1170px;
   width: 100%;
-  padding: 0 15px;
+  padding: 0 0;
   margin: 0 auto;
 }
 
  footer {
-  height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: rgb(34, 49, 52);
+  color: white;
 }
 
+footer .container {
+  position: relative;
+}
+
+footer p.copyright {
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.5em;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}

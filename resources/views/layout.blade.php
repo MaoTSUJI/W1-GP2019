@@ -11,20 +11,18 @@
 
         {{-- cssへのリンク --}}
         <link rel="stylesheet" href="/css/stylesheet.css">
+        <link rel="stylesheet" href="responsive.css">
+
 
     </head>
     <body>
        
         @yield('content')
 
-        <footer>
+        <footer style="position: absolute; left: 0px; bottom: 0px">
              <div class="container">
-                <div class="row">
-                    <div class="col-md-12 text-center">
-                        <div class="copyright">
-                            <p>© 2019 W1-GP 実行委員会 All rights reserved.</p>
-                        </div>
-                    </div>
+                <div class="col-md-12 text-center">
+                    <p class="copyright">© W1-GP 2019 実行委員会 All rights reserved.</p>
                 </div>
             </div>
         </footer>
