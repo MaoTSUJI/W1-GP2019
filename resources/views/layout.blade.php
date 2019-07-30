@@ -4,69 +4,61 @@
     	<meta charset="UTF-8">
     	<title>@yield('title')</title>
 
-        {{-- bootstrap記述するときのリンク --}}
-    	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        {{-- fontawesameの記述 --}}
-    	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
-
         {{-- cssへのリンク --}}
         <link rel="stylesheet" href="/css/stylesheet.css">
-        <link rel="stylesheet" href="responsive.css">
-
 
     </head>
     <body data-gr-c-s-loaded="true" cz-shortcut-listen="true">
        
-        <main style="padding-bottom: 109px;">
-            {{--  --}}
-            {{-- スライダー --}}
-            {{--  --}}
-            <div class="slider" style="overflow: hidden; text-align: center; position: relative;">
-                
-            </div>
+  <!-- Hero -->
+    <section class="et-hero-tabs">
+        <h1>STICKY SLIDER NAV</h1>
+        <h3>Sliding content with sticky tab nav</h3>
+        <div class="et-hero-tabs-container">
+            <a class="et-hero-tab" href="#tab-es6">ES6</a>
+            <a class="et-hero-tab" href="#tab-flexbox">Flexbox</a>
+            <a class="et-hero-tab" href="#tab-react">React</a>
+            <a class="et-hero-tab" href="#tab-angular">Angular</a>
+            <a class="et-hero-tab" href="#tab-other">Other</a>
+          <span class="et-hero-tab-slider"></span>
+        </div>
+    </section>
 
-            {{-- ヘッダー --}}
-            <header class="scrolled fixed">
-                <nav>
-                    <ul class="w1200">
-                        <li>
-                            <a href="#">A</a>
-                        </li>
-                        <li>
-                            
-                        </li>
-                    </ul>
-                    <div class="mobileicon"></div>
-                </nav>
-            </header>
+  <!-- Main -->
+    <main class="et-main">
+        <section class="et-slide" id="tab-es6">
+            <h1>ES6</h1>
+            <h3>something about es6</h3>
+        </section>
+        <section class="et-slide" id="tab-flexbox">
+            <h1>Flexbox</h1>
+            <h3>something about flexbox</h3>
+        </section>
+        <section class="et-slide" id="tab-react">
+            <h1>React</h1>
+            <h3>something about react</h3>
+        </section>
+        <section class="et-slide" id="tab-angular">
+            <h1>Angular</h1>
+            <h3>something about angular</h3>
+        </section>
+        <section class="et-slide" id="tab-other">
+            <h1>Other</h1>
+            <h3>something about other</h3>
+        </section>
+    </main>
 
-            {{-- アーティスト --}}
-            <section class="artist">
-                
-            </section>
+{{--         {{- フッター --}}
+        {{-- <footer style="position: absolute; left: 0px; bottom: 0px"> --}}
+             {{-- <div class="container"> --}}
+                {{-- <div class="col-md-12 text-center"> --}}
+                    {{-- <p class="copyright">© W1-GP 2019 実行委員会 All rights reserved.</p> --}}
+                {{-- </div> --}}
+            {{-- </div> --}}
+        {{-- </footer> --}}
 
-            {{-- チケット --}}
-            <section>
-                
-            </section>
-
-        </main>
-
-        {{-- フッター --}}
-        <footer style="position: absolute; left: 0px; bottom: 0px">
-             <div class="container">
-                <div class="col-md-12 text-center">
-                    <p class="copyright">© W1-GP 2019 実行委員会 All rights reserved.</p>
-                </div>
-            </div>
-        </footer>
-
-           
-
-    	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    	<script type="text/javascript" src="/js/navbar.js"></script>
+        <!-- Plugin JavaScript -->
+        <script src="/js/style.js"></script>
 
     </body>
 </html>
