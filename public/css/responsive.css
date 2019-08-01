@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* タブレット向けレイアウト */
+@media all and (max-width: 1000px) {
+/* 文字を消す */
+  .et-hero-tabs-container {
+    display: none;
+  }
+
+/* メニューアイコンを出す */
+	.header-left {
+		display: block;
+	}
+  .header-right {
+    display: block;
+  }
+
+
+}
+
+/* スマホ向けレイアウト */
+/*@media all and (max-width: 670px) {
+
+
+
+}*/

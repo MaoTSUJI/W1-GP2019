@@ -4,12 +4,12 @@
     	<meta charset="UTF-8">
     	<title>@yield('title')</title>
 
-        {{-- cssへのリンク --}}
-        <link rel="stylesheet" href="/css/stylesheet.css">
-        <link rel="stylesheet" href="/css/responsive.css">
         {{-- FontAwesome --}}
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
 
+        {{-- cssへのリンク --}}
+        <link rel="stylesheet" href="/css/stylesheet.css">
+        <link rel="stylesheet" href="/css/responsive.css">
 
         {{-- bootstrapの追加 --}}
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
@@ -30,21 +30,37 @@
             <h1>ここにカルーセル</h1>
             <h3>Sliding content with sticky tab nav</h3>
 
+            <div class="navbar-link">
 
-            {{-- ナビゲーションバー --}}
-            <div class="et-hero-tabs-container">
-                <span class="fa fa-bars menu-icon"></span>
+                <div class="header-left">
+                    <img class="logo" src="/img/W1GP11th.png" alt="">
+                </div>
+                {{-- メニューアイコン --}}
+                <div class="header-right">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="fa fa-bars menu-icon"></span>
+                    </button>
+                    
+                </div>
 
-                <a class="et-hero-tab" href="#home">ホーム</a>
-                <a class="et-hero-tab" href="#about">大会概要</a>
-                <a class="et-hero-tab" href="#schedule">スケジュール</a>
-                <a class="et-hero-tab" href="#message">ご挨拶</a>
-                <a class="et-hero-tab" href="#access">開催場所</a>
-                <a class="et-hero-tab" href="#result">結果</a>
-                <a class="et-hero-tab" href="#entry">応募</a>
-                <span class="et-hero-tab-slider"></span>
+                <nav class="et-hero-tabs-container">
+
+                    <a class="et-hero-tab" href="#home">ホーム</a>
+                    <a class="et-hero-tab" href="#about">大会概要</a>
+                    <a class="et-hero-tab" href="#schedule">スケジュール</a>
+                    <a class="et-hero-tab" href="#message">ご挨拶</a>
+                    <a class="et-hero-tab" href="#access">開催場所</a>
+                    <a class="et-hero-tab" href="#result">結果</a>
+                    <a class="et-hero-tab" href="#entry">応募</a>
+                    <span class="et-hero-tab-slider"></span>
+                </nav>
+
                 
+                
+
             </div>
+            {{-- ナビゲーションバー --}}
+            
         </section>
 
       <!-- Main -->
@@ -96,6 +112,7 @@
         <!-- Plugin JavaScript -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="/js/style.js"></script>
+        <script src="/js/navbar.js"></script>
 
     </body>
 </html>
