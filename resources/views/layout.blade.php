@@ -6,6 +6,11 @@
 
         {{-- cssへのリンク --}}
         <link rel="stylesheet" href="/css/stylesheet.css">
+        <link rel="stylesheet" href="/css/responsive.css">
+        {{-- FontAwesome --}}
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+
         {{-- bootstrapの追加 --}}
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
@@ -14,21 +19,22 @@
        
   <!-- Hero -->
     <!-- Just an image -->
-        <nav class="navbar navbar-light bg-light">
+        {{-- <nav class="navbar navbar-light bg-light">
           <a class="navbar-brand" href="#">
             <img src="/img/W1GP11th.png" width="50" height="30" alt="">
           </a>
-        </nav>
+        </nav> --}}
+        {{--  --}}
 
         <section class="et-hero-tabs">
             <h1>ここにカルーセル</h1>
             <h3>Sliding content with sticky tab nav</h3>
 
-            
 
             {{-- ナビゲーションバー --}}
-            <nav class="et-hero-tabs-container">
-                
+            <div class="et-hero-tabs-container">
+                <span class="fa fa-bars menu-icon"></span>
+
                 <a class="et-hero-tab" href="#home">ホーム</a>
                 <a class="et-hero-tab" href="#about">大会概要</a>
                 <a class="et-hero-tab" href="#schedule">スケジュール</a>
@@ -36,8 +42,9 @@
                 <a class="et-hero-tab" href="#access">開催場所</a>
                 <a class="et-hero-tab" href="#result">結果</a>
                 <a class="et-hero-tab" href="#entry">応募</a>
-              <span class="et-hero-tab-slider"></span>
-            </nav>
+                <span class="et-hero-tab-slider"></span>
+                
+            </div>
         </section>
 
       <!-- Main -->
