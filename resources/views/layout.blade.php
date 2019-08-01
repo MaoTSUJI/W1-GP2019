@@ -30,6 +30,8 @@
             <h1>ここにカルーセル</h1>
             <h3>Sliding content with sticky tab nav</h3>
 
+
+            {{-- ↓↓↓↓↓↓↓ここから↓↓↓↓↓↓↓↓↓↓ --}}
             <div class="navbar-link">
 
                 <div class="header-left">
@@ -40,11 +42,10 @@
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="fa fa-bars menu-icon"></span>
                     </button>
-                    
                 </div>
+            {{-- ↑↑↑↑↑↑↑↑↑↑ここまでオリジナル↑↑↑↑↑↑↑↑↑↑↑ --}}
 
                 <nav class="et-hero-tabs-container">
-
                     <a class="et-hero-tab" href="#home">ホーム</a>
                     <a class="et-hero-tab" href="#about">大会概要</a>
                     <a class="et-hero-tab" href="#schedule">スケジュール</a>
@@ -54,12 +55,10 @@
                     <a class="et-hero-tab" href="#entry">応募</a>
                     <span class="et-hero-tab-slider"></span>
                 </nav>
-
-                
                 
 
+            {{-- ↓ここも --}}
             </div>
-            {{-- ナビゲーションバー --}}
             
         </section>
 
