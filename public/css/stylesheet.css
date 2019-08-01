@@ -16,7 +16,6 @@ a {
   align-items: center;
   height: 100vh;
   position: relative;
-  background: #eee;
   text-align: center;
   padding: 0 2em;
 }
@@ -96,12 +95,9 @@ a {
 /* ここまでSticky Slider Navigationのコピペ */
 
 /* ここからオリジナル　 */
-
-
 * {
   box-sizing: border-box;
 }
-
 
 .container {
   position: relative;
@@ -127,4 +123,20 @@ footer p.copyright {
   letter-spacing: 0em;
   padding-top: 40px;
   padding-bottom: 40px;
+}
+
+#home {
+  background: #eee;
+}
+
+#schedule {
+  background: #eee;
+}
+
+#access {
+  background: #eee;
+}
+
+#entry {
+  background: #eee;
 }
