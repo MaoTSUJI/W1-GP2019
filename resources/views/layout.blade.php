@@ -10,12 +10,19 @@
         {{-- cssへのリンク --}}
         <link rel="stylesheet" href="/css/stylesheet.css">
         <link rel="stylesheet" href="/css/responsive.css">
+        <link rel="stylesheet" href="/css/home.css">
 
         {{-- bootstrapの追加 --}}
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+        {{-- bootstrapの追加 --}}
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+        <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
     </head>
+
+
     <body data-gr-c-s-loaded="true" cz-shortcut-listen="true">
 
         <section class="et-hero-tabs">
@@ -87,8 +94,6 @@
                 </div>
             </div> --}}
 
-
-
             {{-- ナブバー リンク --}}
             <div class="navbar-link">
 
@@ -122,33 +127,68 @@
 
       <!-- Main -->
         <main class="et-main">
+
+
+
             <section class="et-slide" id="home">
                 <h1>ホーム</h1>
-                <h3>something about es6</h3>
+                <h3>home</h3>
+
+                <div class="container mt-5 mb-5">
+                    <div class="row">
+                        <div class="col-md-6 offset-md-3">
+                            <h4>Latest News</h4>
+                            <ul class="timeline">
+                                <li>
+                                    <a target="_blank" href="https://www.totoprayogo.com/#">New Web Design</a>
+                                    <a href="#" class="float-right">21 March, 2014</a>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque scelerisque diam non nisi semper, et elementum lorem ornare. Maecenas placerat facilisis mollis. Duis sagittis ligula in sodales vehicula....</p>
+                                </li>
+                                <li>
+                                    <a href="#">21 000 Job Seekers</a>
+                                    <a href="#" class="float-right">4 March, 2014</a>
+                                    <p>Curabitur purus sem, malesuada eu luctus eget, suscipit sed turpis. Nam pellentesque felis vitae justo accumsan, sed semper nisi sollicitudin...</p>
+                                </li>
+                                <li>
+                                    <a href="#">Awesome Employers</a>
+                                    <a href="#" class="float-right">1 April, 2014</a>
+                                    <p>Fusce ullamcorper ligula sit amet quam accumsan aliquet. Sed nulla odio, tincidunt vitae nunc vitae, mollis pharetra velit. Sed nec tempor nibh...</p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
             </section>
-            <section class="et-slide" id="about">
+
+
+
+
+
+            <section class="et-slide py-4 px-3" id="about">
                 <h1>大会概要</h1>
-                <h3>something about flexbox</h3>
+                <h3>home</h3>
             </section>
             <section class="et-slide" id="schedule">
                 <h1>スケジュール</h1>
-                <h3>something about react</h3>
+                <h3>schedule</h3>
             </section>
             <section class="et-slide" id="message">
                 <h1>ご挨拶</h1>
-                <h3>something about angular</h3>
+                <h3>message</h3>
             </section>
             <section class="et-slide" id="access">
                 <h1>開催場所</h1>
-                <h3>something about other</h3>
+                <h3>access</h3>
             </section>
             <section class="et-slide" id="result">
                 <h1>結果</h1>
-                <h3>something about other</h3>
+                <h3>result</h3>
             </section>
             <section class="et-slide" id="entry">
                 <h1>応募</h1>
-                <h3>something about other</h3>
+                <h3>entry</h3>
             </section>
         </main>
 

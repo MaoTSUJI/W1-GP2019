@@ -37,10 +37,10 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   position: relative;
   text-align: center;
-  padding: 0 2em;
+  /* レスポンシブ対応 */
+  padding: 4em 10em;
 }
 
 .et-hero-tabs h1,

@@ -5,7 +5,6 @@
   .et-hero-tabs-container {
     display: none;
   }
-
 /* メニューアイコンを出す */
 	.header-left {
 		display: block;
@@ -16,6 +15,11 @@
   .et-hero-tab-slider{
   	display: block;
   }
+
+  .et-slide {
+  /* レスポンシブ対応 */
+  padding: 4em 2em;
+}
 
 
 }
